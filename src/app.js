@@ -120,7 +120,7 @@ app.delete('/user/:userId', (req, res) => {
   res.status(204).end();
 })
 
-app.get('/user/id', (req, res) =>{
+app.get('/user/:id', (req, res) =>{
   res.json(users);
 })
 
